@@ -1,0 +1,40 @@
+# 排除样品软件（二进制文件）
+样品软件/
+
+# 排除系统文件
+.DS_Store
+*.swp
+*.swo
+*~
+
+# 排除未使用的目录（项目未启动）
+脚本/
+配置文件/
+UE5代码/
+测试/
+输出/
+点云数据/
+
+# UE5项目文件（后续添加）
+*.uproject
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE文件
+.vscode/
+.idea/
+*.code-workspace
+
+# 编译产物
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+*.so
+
+# 日志文件
+*.log
